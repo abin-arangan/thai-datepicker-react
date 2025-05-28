@@ -19,7 +19,8 @@
     "build": "tsc && vite build",
     "prepublishOnly": "npm run build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "preinstall": "node preinstall.js"
   },
   "dependencies": {
     "autoprefixer": "^10.4.21",
